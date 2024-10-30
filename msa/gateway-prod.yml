@@ -27,7 +27,7 @@ spring:
     name: API-GATEWAY
   boot:
     admin:
-      client:
+      client: # Spring Boot Actuator Admin UI Server
         url: http://localhost:15000
 jwt:
   token:
